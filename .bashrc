@@ -12,7 +12,7 @@ export ALTERNATE_EDITOR='emacs -nw'
 export TZ='/usr/share/zoneinfo/Europe/Kiev'
 #export NCURSES_NO_UTF8_ACS=1
 export GTAGSLIBPATH=$HOME/.gtags/
-[[ $TMUX = "" ]] && export TERM="xterm-256color"
+export TERM="xterm-24bits"
 
 alias grep='grep --color=auto'
 alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'

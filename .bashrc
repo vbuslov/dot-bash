@@ -16,6 +16,7 @@ export TERM="screen-256color"
 
 alias grep='grep --color=auto'
 alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'
+alias emacs-tc='TERM=xterm-24bits emacs -nw'
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.

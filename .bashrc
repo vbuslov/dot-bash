@@ -10,7 +10,6 @@ export LC_ALL=en_US.UTF-8
 export EDITOR='emacsclient -nw'
 export ALTERNATE_EDITOR='emacs -nw'
 export TZ='/usr/share/zoneinfo/Europe/Kiev'
-#export NCURSES_NO_UTF8_ACS=1
 export GTAGSLIBPATH=$HOME/.gtags/
 export TERM="screen-256color"
 

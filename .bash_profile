@@ -12,9 +12,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$HOME/local/bin:$HOME/bin:$PATH
+PATH=$HOME/.cargo/bin:$HOME/local/bin:$HOME/bin:$PATH
 
 export PATH
 unset USERNAME
-
-export PATH="$HOME/.cargo/bin:$PATH"

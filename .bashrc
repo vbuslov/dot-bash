@@ -23,6 +23,7 @@ alias ef='emacs -nw -q'
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+shopt -s extglob
 shopt -s histappend
 shopt -s cdspell
 

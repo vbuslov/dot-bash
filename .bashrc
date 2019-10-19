@@ -14,6 +14,7 @@ export TERM="screen-256color"
 export HISTCONTROL=ignoreboth:erasedups
 
 alias grep='grep --color=auto'
+alias ls='ls --color=auto'
 alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'
 alias emacs-tc='TERM=xterm-24bits emacs -nw'
 alias ef='emacs -nw -q'

@@ -3,7 +3,7 @@ HISTSIZE=100000
 HISTFILESIZE=-1
 
 export CLICOLOR=1
-export PS1="\[\033[38;5;4m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\]\\$\[$(tput sgr0)\] "
+export PS1="\[\033[38;5;4m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\]?\[$(tput sgr0)\]\[\033[38;5;13m\]\$?\[$(tput sgr0)\]\[\033[38;5;15m\]\\$ \[$(tput sgr0)\]"
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8

@@ -13,6 +13,9 @@ export GTAGSLIBPATH=$HOME/.gtags/
 export TERM="screen-256color"
 export HISTCONTROL=ignoreboth:erasedups
 
+# Control-S
+[[ $- == *i* ]] && stty -ixon
+
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'

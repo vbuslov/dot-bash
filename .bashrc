@@ -1,6 +1,6 @@
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=100000
-HISTFILESIZE=200000
+HISTFILESIZE=-1
 
 export CLICOLOR=1
 export PS1="\[\033[38;5;4m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\]\\$\[$(tput sgr0)\] "
@@ -11,6 +11,7 @@ export EDITOR='emacs -nw'
 export TZ='/usr/share/zoneinfo/Europe/Kiev'
 export GTAGSLIBPATH=$HOME/.gtags/
 export TERM="screen-256color"
+export HISTCONTROL=ignoreboth:erasedups
 
 alias grep='grep --color=auto'
 alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'
@@ -20,9 +21,8 @@ alias emacs-tc='TERM=xterm-24bits emacs -nw'
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-# If set, the pattern "**" used in a pathname expansion context will
-# match all files and zero or more directories and subdirectories.
-shopt -s globstar
+shopt -s histappend
+shopt -s cdspell
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"

@@ -6,3 +6,5 @@ This is my bash config to use it run the following in your home dir:
     
     ln -s ~/.config/bash/.bash_profile ~/.bash_profile
     ln -s ~/.config/bash/.bashrc ~/.bashrc
+    ln -s ~/.config/bash/.inputrc ~/.inputrc
+

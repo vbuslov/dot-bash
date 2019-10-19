@@ -7,7 +7,7 @@ export PS1="\[\033[38;5;4m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\]?\[$(tput sgr0)\]
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export EDITOR='emacs -nw'
+export EDITOR='emacs -nw -q'
 export TZ='/usr/share/zoneinfo/Europe/Kiev'
 export GTAGSLIBPATH=$HOME/.gtags/
 export TERM="screen-256color"
@@ -16,6 +16,7 @@ export HISTCONTROL=ignoreboth:erasedups
 alias grep='grep --color=auto'
 alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'
 alias emacs-tc='TERM=xterm-24bits emacs -nw'
+alias ef='emacs -nw -q'
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.

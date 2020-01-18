@@ -18,7 +18,6 @@ export HISTCONTROL=ignoreboth:erasedups
 
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
-alias mft_install='./.autodirect/mswg/release/mft/latest/install.sh'
 alias emacs-tc='TERM=xterm-24bits emacs -nw'
 alias ef='emacs -nw -q'
 
@@ -44,8 +43,8 @@ export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;35m'
 
-if [ -f /usr/share/fzf/key-bindings.bash ]; then
-    . /usr/share/fzf/key-bindings.bash
+if [ -f .fzf-key-bindings.bash ]; then
+    . .fzf-key-bindings.bash
 fi
 
 # enable programmable completion features (you don't need to enable
